@@ -35,14 +35,14 @@ h1 {
     background-color: #1b1b32;
     border-radius: 7px;
     display: block;
-    width: 18rem;
+    width: 21rem;
     height: 3.7rem;
     text-align: center;
     margin: 12px;
     padding-top: 0;
 }
 
-a:hover {
+.project-items a:hover {
     background-color: #e6edf3;
     color: #1b1b32;
 }
@@ -59,6 +59,8 @@ li>a {
 ul {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
