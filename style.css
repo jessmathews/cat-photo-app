@@ -56,13 +56,13 @@ li>a {
     font-size: 1.3rem;
 }
 
-ul {
+.project-items {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
-
 
 .center {
     display: flex;
