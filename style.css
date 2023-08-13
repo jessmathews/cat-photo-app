@@ -1,7 +1,13 @@
+@media (prefers-reduced-motion:no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
 * {
-    scroll-behavior: smooth;
     box-sizing: border-box;
 }
+
 
 body {
     margin: 0;
